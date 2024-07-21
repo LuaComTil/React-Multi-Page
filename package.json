@@ -1,6 +1,6 @@
 {
   "homepage": "https://luacomtil.github.io/React-Multi-Page",
-  "name": "store",
+  "name": "react-multi-page",
   "private": true,
   "version": "0.0.0",
   "type": "module",

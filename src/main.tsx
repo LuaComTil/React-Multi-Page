@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App.tsx';
 import './styles/reset.css';
 
-import { createBrowserRouter, Route, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, HashRouter, RouterProvider } from "react-router-dom";
 import Home from './pages/home/HomePage.tsx';
 import Contact from './pages/contact/ContactPage.tsx';
 import Products from './components/Products.tsx';
@@ -53,7 +53,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
+      <RouterProvider router={router}/>
   </React.StrictMode>,
 );
 
